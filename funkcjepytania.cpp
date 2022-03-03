@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 string wyb;
 char odp1,odp2,odp3,odp4,odp5;
@@ -101,11 +101,11 @@ void pyt5(){
 int main()
 {
     do{
-        cout << pyt1 << endl;
-        cout << pyt2 << endl;
-        cout << pyt3 << endl;
-        cout << pyt4 << endl;
-        cout << pyt5 << endl;
+        pyt1();
+        pyt2();
+        pyt3();
+        pyt4();
+        pyt5();
         cout << "Punkty: " << pkt << endl;
         if (pkt==0){
             cout << "Ocena: jedynka" << endl;
